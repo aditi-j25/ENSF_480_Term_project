@@ -6,4 +6,4 @@ Need to have :
 - 4 state transition diagrams
 - A class diagram
 - A package diagram
-- Code files using JAva GUI(swing) and MySQL  
+- Zip Code files using JAva GUI(swing) and MySQL  
