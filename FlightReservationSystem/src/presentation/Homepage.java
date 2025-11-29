@@ -1,4 +1,4 @@
 package presentation;
 
-public class test2 {
+public class Homepage {
 }
