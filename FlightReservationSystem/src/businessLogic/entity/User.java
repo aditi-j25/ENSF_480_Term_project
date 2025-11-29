@@ -1,4 +1,4 @@
-package authorization.entity;
+package businessLogic.entity;
 
 import java.time.LocalDateTime;
 
