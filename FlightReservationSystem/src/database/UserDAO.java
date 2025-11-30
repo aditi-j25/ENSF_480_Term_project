@@ -40,10 +40,10 @@ public class UserDAO {
                 // Return correct child class
                 switch (role) {
                     case "Admin":
-                        return new Admin(id, dbEmail, dbPass, fName, lName, addr, phone, promo, createdAt);
+                        return new Admin(id, dbEmail, dbPass, fName, lName, addr, phone, createdAt);
 
                     case "Agent":
-                        return new Agent(id, dbEmail, dbPass, fName, lName, addr, phone, promo, createdAt);
+                        return new Agent(id, dbEmail, dbPass, fName, lName, addr, phone, createdAt);
 
                     default: // Customer
                         return new Customer(id, dbEmail, dbPass, fName, lName, addr, phone, promo, createdAt);

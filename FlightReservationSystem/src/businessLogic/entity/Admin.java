@@ -9,11 +9,10 @@ import java.time.LocalDateTime;
 public class Admin extends User {
 
     public Admin(int userId, String email, String password, String firstName,
-                 String lastName, String address, String phone,
-                 boolean receivePromotions, LocalDateTime createdAt) {
+                 String lastName, String address, String phone, LocalDateTime createdAt) {
 
         super(userId, email, password, firstName, lastName, address, phone,
-              "Admin", receivePromotions, createdAt);
+              "Admin", false, createdAt);
     }
 
     @Override

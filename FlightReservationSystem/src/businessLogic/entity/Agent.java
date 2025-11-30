@@ -9,11 +9,10 @@ import java.time.LocalDateTime;
 public class Agent extends User {
 
     public Agent(int userId, String email, String password, String firstName,
-                 String lastName, String address, String phone,
-                 boolean receivePromotions, LocalDateTime createdAt) {
+                 String lastName, String address, String phone, LocalDateTime createdAt) {
 
         super(userId, email, password, firstName, lastName, address, phone,
-              "Agent", receivePromotions, createdAt);
+              "Agent", false, createdAt);
     }
 
     @Override
