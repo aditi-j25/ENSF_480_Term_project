@@ -1,6 +1,6 @@
 # ENSF_480_Term_project
 Contains:
-- A Design Report
+- A Design Document
 - A system use-case diagram
 - 4 interaction diagrams
 - 4 state transition diagrams
