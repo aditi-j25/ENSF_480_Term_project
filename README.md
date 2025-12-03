@@ -1,4 +1,4 @@
-# The repository contains:
+# This repository contains:
 - A Design Document
 - A system use-case diagram
 - 4 interaction diagrams
