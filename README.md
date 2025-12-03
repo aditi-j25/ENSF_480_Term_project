@@ -1,5 +1,4 @@
-# ENSF_480_Term_project
-Contains:
+# The repository contains:
 - A Design Document
 - A system use-case diagram
 - 4 interaction diagrams
